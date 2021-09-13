@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>Peres Advocacia</title>
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+    <link rel="stylesheet" type="text/css" href="_css/specs.css"/>
+</head>
+<script src="_javascript/funcoes.js"></script>
+
+<body>
+<div id="interface">
+
+<header id="cabecalho">
+<hgroup>
+<h1>Advocacia</h1>
+<h2>Consulte sempre um advogado</h2>
+</hgroup>
+
+<img id="icone" src="_imagens/especificacoes.png"/>
+
+<nav id="menu">
+    <h1>Menu Principal</h1>
+        <ul>
+            <li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="index.html">Home</a></li>
+            <li onmouseover="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="atuacao.html">Áreas de Atuação</a></li>
+            <li onmouseover="mudaFoto('_imagens/balanca-just-peq.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="sobre.html">Sobre</a></li>
+            <li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="multimidia.html">Multimídia</a></li>
+            <li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+        </ul>
+</nav>
+</header>
+
+<section id="corpo-full">
+
+    <article id="noticia-principal">
+        <header id="cabecalho-artigo">
+        <hgroup>
+        <h3>Atuação > Áreas</h3>
+        <h1>Conheça nossas áreas de atuação</h1>
+        <h2>por Regiane Aedra Peres</h2>
+        <h3 class="direita">Atualizado em 02/Junho/2021</h3>
+        </hgroup>
+        </header>
+
+
+<p>Clique sobre qualquer ícone da imagem ao lado para obter mais informações sobre nossas áreas de atuação.</p>
+
+    <section id="conteudo">
+        <img src="_imagens/circulo-atuacao.png" usemap="#meumapa">
+        <map name="meumapa">
+            <area shape="rect" coords="198,41,297,133" href="atuacao-text.html#trabalho" target="janela"/>
+            <area shape="rect" coords="351,113,452,208" href="atuacao-text.html#civil" target="janela"/>
+            <area shape="rect" coords="350,285,451,383" href="atuacao-text.html#consumidor" target="janela"/>
+            <area shape="rect" coords="196,369,298,462" href="atuacao-text.html#imobiliario" target="janela"/>
+            <area shape="rect" coords="50,289,150,383" href="atuacao-text.html#saude" target="janela"/>
+            <area shape="rect" coords="50,116,150,209" href="atuacao-text.html#familia" target="janela"/>
+        </map>
+        <iframe src="atuacao-text.html" name="janela" id="frame-spec"></iframe>
+    </section>
+
+    </article>
+</section>
+
+<footer id="rodape">
+    <p>Copyright &#169; 2021 - by Regiane Aedra Peres - Tel: (11) 95689-8326 <br/>
+    <a href="http://facebook.com/regimur" target="_blank"> Facebook</a>  |
+    <a href="http://twitter.com/regimur" target="_blank"> Twitter</a></p>
+    </footer>
+    </div>
+    </body>
+    </html>
